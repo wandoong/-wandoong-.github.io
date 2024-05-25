@@ -1,0 +1,31 @@
+.hidden {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  body {
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+}
+
+
+#clock {
+    font-size: 8rem;
+    margin: 50px auto;
+  }
+
+  #weather {
+    font-size: 1.5rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+  }
